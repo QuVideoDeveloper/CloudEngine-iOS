@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KdD-HU-E69">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Template ListVC-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="QVTemplateListVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eqM-G5-AIE">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VDA-QG-17W">
+                                    <size key="itemSize" width="213" height="106"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QVTmplateInfoCellID" id="tww-cG-xto" customClass="QVTemplateInfoCell">
+                                        <rect key="frame" x="100.5" y="0.0" width="213" height="106"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pIE-N0-yZI">
+                                            <rect key="frame" x="0.0" y="0.0" width="213" height="106"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="213" height="106"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="eqM-G5-AIE" secondAttribute="bottom" id="AEI-Co-7fE"/>
+                            <constraint firstItem="eqM-G5-AIE" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="Icg-WW-pX7"/>
+                            <constraint firstAttribute="trailing" secondItem="eqM-G5-AIE" secondAttribute="trailing" id="Xmw-Ar-Cbu"/>
+                            <constraint firstItem="eqM-G5-AIE" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="eyQ-Q4-uiD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pt0-cn-SyJ">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="izj-WE-zh8">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5dq-pf-rJo">
+                                <rect key="frame" x="311" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="登陆"/>
+                                <connections>
+                                    <action selector="onLoginBtn:" destination="whP-gf-Uak" eventType="touchUpInside" id="Gda-wV-NwY"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tCollectionView" destination="eqM-G5-AIE" id="dbA-Vi-wVE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-511" y="9"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5LS-5E-LvY">
+            <objects>
+                <tabBarController id="KdD-HU-E69" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N4m-6I-W8k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fcx-uD-bgf" kind="relationship" relationship="viewControllers" id="aq5-N2-3k3"/>
+                        <segue destination="aLe-QL-GXd" kind="relationship" relationship="viewControllers" id="scw-es-5KA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QUF-sU-evb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2857" y="-278"/>
+        </scene>
+        <!--合成的视频列表-->
+        <scene sceneID="rze-Ka-dCX">
+            <objects>
+                <navigationController id="aLe-QL-GXd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="合成的视频列表" id="Ibl-1K-j7O"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J8g-cI-3QQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="p53-h5-U1y" kind="relationship" relationship="rootViewController" id="Niq-Pw-n0k"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tvM-TS-bjI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2207" y="537"/>
+        </scene>
+        <!--合成的视频列表-->
+        <scene sceneID="5iY-Y4-lCc">
+            <objects>
+                <viewController id="p53-h5-U1y" customClass="QVCompositeFileListVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GLl-Kg-cn4"/>
+                        <viewControllerLayoutGuide type="bottom" id="lCk-WT-5Bs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H83-wP-zSo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="合成的视频列表" id="ORc-cA-p0d"/>
+                    <navigationItem key="navigationItem" id="QnQ-Vw-2Xr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ddh-4K-nJt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1334" y="537"/>
+        </scene>
+        <!--素材列表-->
+        <scene sceneID="Ei5-8w-YtN">
+            <objects>
+                <navigationController id="fcx-uD-bgf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="素材列表" id="n65-bG-rmp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="REz-vg-gKg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="uct-74-nSD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YsT-No-QGI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1407" y="-376"/>
+        </scene>
+    </scenes>
+</document>

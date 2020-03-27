@@ -1,0 +1,46 @@
+{
+  "name": "QVCloudEngine",
+  "version": "0.1.0",
+  "summary": "A short description of QVCloudEngine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sunshine/QVCloudEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sunshine": "cheng.xia@quvideo.com"
+  },
+  "source": {
+    "git": "https://github.com/Sunshine/QVCloudEngine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QVCloudEngine/Classes/**/*",
+  "vendored_frameworks": "QVCloudEngine/FrameWork/QVCloudEngineSDK.framework",
+  "libraries": "resolv",
+  "frameworks": [
+    "CoreServices",
+    "AVFoundation",
+    "Photos",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "CoreGraphics"
+  ],
+  "dependencies": {
+    "AliyunOSSiOS": [
+      "2.10.7"
+    ],
+    "AWSS3": [
+      "2.10.0"
+    ],
+    "AWSCore": [
+      "2.10.0"
+    ]
+  },
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}

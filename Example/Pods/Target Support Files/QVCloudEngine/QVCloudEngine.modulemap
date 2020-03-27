@@ -1,0 +1,6 @@
+framework module QVCloudEngine {
+  umbrella header "QVCloudEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}
