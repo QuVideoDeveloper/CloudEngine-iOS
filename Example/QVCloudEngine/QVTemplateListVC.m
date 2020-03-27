@@ -46,14 +46,14 @@
     }
     QVCloudEngineConfig *engineConfig = [[QVCloudEngineConfig alloc] init];
     engineConfig.userId = userId;
-    engineConfig.appKey = @"A10002FJu7yEZPhix9HEre";
-    engineConfig.appSecrect = @"9e90f233c5fbe1ac0974cee60602dd4a8cb1a846";
+    engineConfig.appKey = @"申请的appKey";
+    engineConfig.appSecrect = @"申请的appSecrect";
     [QVCloudEngine initializeWithConfig:engineConfig];
 }
 
 - (void)viewDidLoad
 {
-    [self loginWithUserId:@"userIdq"];
+    [self loginWithUserId:@"唯一ID"];
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     self.tCollectionView.delegate = self;
