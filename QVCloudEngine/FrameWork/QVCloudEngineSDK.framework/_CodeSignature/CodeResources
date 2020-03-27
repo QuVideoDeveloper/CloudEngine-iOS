@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QVCloudEngine.h</key>
 		<data>
-		6ugsAfERuZw6+/KLWjIkHoGPotE=
+		wSF2/6jbrXwWE6DiGS0lK5FdzEs=
 		</data>
 		<key>Headers/QVCloudEngineConfig.h</key>
 		<data>
@@ -15,10 +15,6 @@
 		<key>Headers/QVCloudEngineEnum.h</key>
 		<data>
 		wrmqlYB5bi8FqCqqMS4NCbJoD9o=
-		</data>
-		<key>Headers/QVCloudEngineS.h</key>
-		<data>
-		X5ccAHCkpIqdKbdJOnwPhBaj7Fc=
 		</data>
 		<key>Headers/QVCloudEngineSDK.h</key>
 		<data>
@@ -83,11 +79,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6ugsAfERuZw6+/KLWjIkHoGPotE=
+			wSF2/6jbrXwWE6DiGS0lK5FdzEs=
 			</data>
 			<key>hash2</key>
 			<data>
-			pQ23/c+DWWNHyko1i+H07tk/Z3As0F1kQaFX5tWRrxQ=
+			oIJ6ttwqEX4w8yUb9F9cyrvzWmzX4++GeeG5mYrDfGc=
 			</data>
 		</dict>
 		<key>Headers/QVCloudEngineConfig.h</key>
@@ -110,17 +106,6 @@
 			<key>hash2</key>
 			<data>
 			Y/TBgCwlWafjW4rv/lKwQbRyQJtpfBmHBerfbmlSu/M=
-			</data>
-		</dict>
-		<key>Headers/QVCloudEngineS.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X5ccAHCkpIqdKbdJOnwPhBaj7Fc=
-			</data>
-			<key>hash2</key>
-			<data>
-			Uot4Kd9mKR3IUHIrlia3E29hpjxZhyGbtr+jjjaScd4=
 			</data>
 		</dict>
 		<key>Headers/QVCloudEngineSDK.h</key>

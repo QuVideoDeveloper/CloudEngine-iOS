@@ -63,6 +63,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param fileIds 文件唯一标识
 + (void)report:(NSArray <NSString *> *)fileIds;
 
+
+/// sdk 版本号
++ (NSString *)sdkVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END
