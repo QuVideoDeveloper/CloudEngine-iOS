@@ -26,12 +26,10 @@ Sunshine, cheng.xia@quvideo.com
 
 ## 接口文档
 ## 写在最前
-运行Demo工程，需要把申请到的**AppKey**、**AppSecret**添入`App.java`如下位置。
+运行Demo工程，需要把申请到的**AppKey**、**AppSecret**添入如下位置。
 ```
-public class App extends MultiDexApplication {
-    public final static String APP_KEY = "此处填写分发的appKey";
-    public final static String APP_SECRET = "此处填写分发的appSecret";
-}
+    engineConfig.appKey = @"申请的appKey ";
+    engineConfig.appSecrect = @"申请的appSecrect";
 ```
 
 ## 功能概览
@@ -39,7 +37,6 @@ public class App extends MultiDexApplication {
 ## 前期准备
 1. 向小影对接人申请 appKey 和 appSecrect（后续API接口签名认证会使用到）；
 2. 申请最新版本的小影云端合成sdk。
-```
 3. 点击Sync，同步配置。
 
 ### 参数配置
