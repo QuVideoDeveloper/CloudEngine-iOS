@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QVCloudEngine'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'A short description of QVCloudEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Sunshine/QVCloudEngine'
+  s.homepage         = 'https://github.com/QuVideoDeveloper/CloudEngine-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sunshine' => 'cheng.xia@quvideo.com' }
-  s.source           = { :git => 'https://github.com/Sunshine/QVCloudEngine.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:QuVideoDeveloper/CloudEngine-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
