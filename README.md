@@ -25,7 +25,6 @@ pod 'QVCloudEngine'
 Sunshine, cheng.xia@quvideo.com
 
 ## 接口文档
-## 写在最前
 运行Demo工程，需要把申请到的**AppKey**、**AppSecret**添入如下位置。
 ```
     engineConfig.appKey = @"申请的appKey ";
