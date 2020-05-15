@@ -3,7 +3,7 @@ PODS:
   - AWSCore (2.10.0)
   - AWSS3 (2.10.0):
     - AWSCore (= 2.10.0)
-  - QVCloudEngine (1.1.8):
+  - QVCloudEngine (1.1.9):
     - AliyunOSSiOS (= 2.10.7)
     - AWSCore (= 2.10.0)
     - AWSS3 (= 2.10.0)
@@ -42,7 +42,7 @@ SPEC CHECKSUMS:
   AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
   AWSCore: d5667976d58ee878961b98744cb38b6066785895
   AWSS3: 1369d64a1bb3e1ca632d718d84ab3778086cfbef
-  QVCloudEngine: fe98b35d6d7adb07b2536cfb30046b15f1a72956
+  QVCloudEngine: 4db2f38798272a5f9e6cace1c90a101e45f2f4b2
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
