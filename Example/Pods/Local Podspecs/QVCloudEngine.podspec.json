@@ -1,19 +1,19 @@
 {
   "name": "QVCloudEngine",
-  "version": "0.1.0",
+  "version": "1.1.8",
   "summary": "A short description of QVCloudEngine.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Sunshine/QVCloudEngine",
+  "homepage": "https://github.com/QuVideoDeveloper/CloudEngine-iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Sunshine": "cheng.xia@quvideo.com"
+    "QuVideo Inc.": "Githubgitsource@quvideo.com"
   },
   "source": {
-    "git": "https://github.com/Sunshine/QVCloudEngine.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/QuVideoDeveloper/CloudEngine-iOS.git",
+    "tag": "1.1.8"
   },
   "platforms": {
     "ios": "8.0"
