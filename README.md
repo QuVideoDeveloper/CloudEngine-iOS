@@ -147,7 +147,7 @@ compositeConfig.mediaDataList = mediaDataList;
 
 **QVCompositeMediaData：单个源文件参数**
 | 名称  | 解释 | 类型 | 是否必须 | 注意 |
-| :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: |
 | asset | Photokit 里的PHAsset  | PHAsset | 可选 |asset 和 filePath 必须有一项是必填 |
 | filePath | 图片视频文件的路径  | Sting | 可选 |asset 和 filePath 必须有一项是必填 | 
 
