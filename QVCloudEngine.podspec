@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   
   s.libraries = 'resolv'
   
-  s.frameworks = 'CoreServices', 'AVFoundation' , 'Photos' , 'SystemConfiguration' , 'CoreTelephony' , 'CoreGraphics'
+  s.frameworks = 'CoreServices', 'AVFoundation' , 'Photos' , 'SystemConfiguration' , 'CoreTelephony' , 'CoreGraphics' , 'CoreMedia' 
 
   s.dependency 'AliyunOSSiOS', '2.10.7'
   s.dependency 'AWSS3', '2.10.0'
