@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QVCloudEngine'
-  s.version          = '1.1.10'
+  s.version          = '1.1.9'
   s.summary          = 'A short description of QVCloudEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   
   s.libraries = 'resolv'
   
-  s.frameworks = 'CoreServices', 'AVFoundation' , 'Photos' , 'SystemConfiguration' , 'CoreTelephony' , 'CoreGraphics' , 'CoreMedia' 
+  s.frameworks = 'CoreServices', 'AVFoundation' , 'Photos' , 'SystemConfiguration' , 'CoreTelephony' , 'CoreGraphics' , 'CoreMedia'
 
   s.dependency 'AliyunOSSiOS', '2.10.7'
   s.dependency 'AWSS3', '2.10.0'
