@@ -146,9 +146,11 @@ compositeConfig.mediaDataList = mediaDataList;
 | mediaDataList | 本地图片组/视频 | NSArray <QVCompositeMediaData *> *mediaDataList | 必须|
 
 **QVCompositeMediaData：单个源文件参数**
-| 名称  | 解释 | 类型 | 是否必须 |
+| 名称  | 解释 | 类型 | 是否必须 | 注意 |
 | :-: | :-: | :-: | :-: |
-| asset | Photokit 里的PHAsset  | PHAsset | 必须 |
+| asset | Photokit 里的PHAsset  | PHAsset | 可选 |asset 和 filePath 必须有一项是必填 |
+| filePath | 图片视频文件的路径  | Sting | 可选 |asset 和 filePath 必须有一项是必填 | 
+
 #### 响应参数
 **QVCompositePreResponse：云端合成预处理**
 | 名称  | 解释 | 类型 | 是否必须 |
