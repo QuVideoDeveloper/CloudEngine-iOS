@@ -65,7 +65,6 @@ Sunshine, cheng.xia@quvideo.com
 | 名称  | 解释 | 类型 | 是否必须 |
 | :-: | :-: | :-: | :-: |
 | appKey | 注册时申请的AppKey | String | 必须 |
-| config | 初始化配置 | QVCloudEngineConfig | 必须 |
 | appSecrect | 注册时申请的AppSecrect | String | 必须 |
 | userId | 第三方用户唯一标示，<br>如果没有可以传入广告Id、唯一id等。| String | 必须 | 
 | countryCode | 国家代码 | String | 可选 |
