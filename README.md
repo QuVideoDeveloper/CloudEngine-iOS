@@ -68,6 +68,8 @@ Sunshine, cheng.xia@quvideo.com
 | config | 初始化配置 | QVCloudEngineConfig | 必须 |
 | appSecrect | 注册时申请的AppSecrect | String | 必须 |
 | userId | 第三方用户唯一标示，<br>如果没有可以传入广告Id、唯一id等。| String | 必须 | 
+| countryCode | 国家代码 | String | 可选 |
+| languageCode | 语言代码 | String | 可选 |
 
 ### 获取素材模版列表
 调用以获取合成素材列表。
