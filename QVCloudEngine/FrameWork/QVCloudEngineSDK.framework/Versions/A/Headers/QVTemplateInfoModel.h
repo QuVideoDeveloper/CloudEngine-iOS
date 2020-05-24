@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "QVCloudEngineEnum.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -49,6 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 模板种类编号
 @property (nonatomic, copy) NSString *tcId;
+
+/// 媒体资源的类型
+@property (nonatomic, assign) QVCloudEngineDataType *dataType;
 
 @end
 

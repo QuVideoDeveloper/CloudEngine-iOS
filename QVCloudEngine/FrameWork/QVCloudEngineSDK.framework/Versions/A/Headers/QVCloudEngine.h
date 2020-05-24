@@ -40,11 +40,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param compositeConfig 合成参数
 /// @param start 合成开始 返回task 和 response
 /// @param progress 合成进度状态
+/// @param uploadProgress 上传进度
 /// @param success 合成成功 返回response
 /// @param failure 合成失败 返回 task 和 error
 + (void)composite:(QVCompositeConfig *)compositeConfig
             start:(void(^)(QVCompositeTask *task, QVCompositePreResponse *response))start
          progress:(void(^)(QVCloudEngineCompositeState state))progress
+   uploadProgress:(void(^)(CGFloat progressValue))uploadProgress
           success:(void(^)(QVCompositeResponse *response))success
           failure:(void(^)(QVCompositeTask *task, QVErrorModel *error, BOOL canForceComposite))failure;
 
@@ -62,6 +64,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 上报接口,当成功获取到视频后，调用上报接口，以统计有效合成。
 /// @param fileIds 文件唯一标识
 + (void)report:(NSArray <NSString *> *)fileIds;
+
+/// 取消上传
+- (void)cancelUpload;
 
 @end
 
