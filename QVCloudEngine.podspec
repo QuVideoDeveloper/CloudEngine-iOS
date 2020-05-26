@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QVCloudEngine'
-  s.version          = '1.1.15'
+  s.version          = '1.1.16'
   s.summary          = 'A short description of QVCloudEngine.'
 
 # This description is used to generate tags and improve search results.

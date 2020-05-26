@@ -52,8 +52,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *tcId;
 
 /// 媒体资源的类型
-@property (nonatomic, assign) QVCloudEngineDataType *dataType;
+@property (nonatomic, assign) QVCloudEngineDataType dataType;
 
+@property (nonatomic, copy) NSString *templateExtend;
 @end
 
 NS_ASSUME_NONNULL_END

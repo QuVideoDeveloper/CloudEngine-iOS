@@ -24,9 +24,9 @@ typedef NS_ENUM(NSInteger, QVCloudEngineCompositeState) {
 };
 
 typedef NS_ENUM(NSInteger, QVCloudEngineDataType) {
-    QVCloudEngineDataTypeImage = 0,
+    QVCloudEngineDataTypeBoth = 0,
+    QVCloudEngineDataTypeImage ,
     QVCloudEngineDataTypeVideo,
-    QVCloudEngineDataTypeBoth,
 };
 
 #endif /* QVCloudEngineEnum_h */
