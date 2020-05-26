@@ -183,6 +183,8 @@
         
     } progress:^(QVCloudEngineCompositeState state) {
         
+    }uploadProgress:^(CGFloat uploadProgress) {
+        
     } success:^(QVCompositeResponse * _Nonnull response) {
         [QVCloudEngine report:@[response.data.fileId]];
         [SVProgressHUD showImage:nil status:@"合成成功"];

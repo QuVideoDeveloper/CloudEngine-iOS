@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "QVCloudEngineEnum.h"
+#import <CoreGraphics/CoreGraphics.h>
 
 @class QVCloudEngineConfig;
 @class QVTemplateConfig;

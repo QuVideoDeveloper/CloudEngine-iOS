@@ -1,6 +1,6 @@
 {
   "name": "QVCloudEngine",
-  "version": "1.1.9",
+  "version": "1.1.17",
   "summary": "A short description of QVCloudEngine.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/QuVideoDeveloper/CloudEngine-iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/QuVideoDeveloper/CloudEngine-iOS.git",
-    "tag": "1.1.9"
+    "tag": "1.1.17"
   },
   "platforms": {
     "ios": "8.0"
