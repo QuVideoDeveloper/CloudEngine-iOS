@@ -66,7 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)report:(NSArray <NSString *> *)fileIds;
 
 /// 取消上传
-- (void)cancelUpload;
++ (void)cancelUpload;
 
 @end
 
