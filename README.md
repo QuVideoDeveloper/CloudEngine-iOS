@@ -36,7 +36,6 @@ Sunshine, cheng.xia@quvideo.com
 ## 前期准备
 1. 向小影对接人申请 appKey 和 appSecrect（后续API接口签名认证会使用到）；
 2. 申请最新版本的小影云端合成sdk。
-3. 点击Sync，同步配置。
 
 ### 参数配置
 1. 网络请求支持http  在Info.plist中添加权限：
