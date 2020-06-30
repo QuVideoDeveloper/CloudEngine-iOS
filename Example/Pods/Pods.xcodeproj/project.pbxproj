@@ -577,6 +577,7 @@
 		256AA4160A2BB560058048BD2EA0D8F7 /* OSSFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSFileLogger.h; path = AliyunOSSSDK/OSSFileLog/OSSFileLogger.h; sourceTree = "<group>"; };
 		2645C76AC4FB74BB6C1132097BFC0973 /* QVCloudEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QVCloudEngine.modulemap; sourceTree = "<group>"; };
 		2756A438B058BF6E0590D18B48042AF4 /* AWSMTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSMTLModel.m; path = AWSCore/Mantle/AWSMTLModel.m; sourceTree = "<group>"; };
+		287D506618CDD664D58892949783D5D8 /* QVCommonKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QVCommonKit.debug.xcconfig; sourceTree = "<group>"; };
 		295AA9A00248B9601717525E73E60C03 /* OSSInputStreamHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSInputStreamHelper.h; path = AliyunOSSSDK/OSSInputStreamHelper.h; sourceTree = "<group>"; };
 		2962216F17C2A18BE3FAFB206A1F566C /* QVCloudEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QVCloudEngine-dummy.m"; sourceTree = "<group>"; };
 		29673FB91FA88B4676ED6F37A98B6239 /* YYWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYWebImage-dummy.m"; sourceTree = "<group>"; };
@@ -586,7 +587,6 @@
 		2D5A5008E0294959A22B52B7912D8243 /* AWSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWSCore-dummy.m"; sourceTree = "<group>"; };
 		2DDF42C9D0BB1EED1F96D6B5AD95C33B /* AWSFMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabaseQueue.m; path = AWSCore/FMDB/AWSFMDatabaseQueue.m; sourceTree = "<group>"; };
 		2E0ACE1D58D36811D86D2C676833B151 /* AWSMTLManagedObjectAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSMTLManagedObjectAdapter.m; path = AWSCore/Mantle/AWSMTLManagedObjectAdapter.m; sourceTree = "<group>"; };
-		2EE86722DD814B3CE7B50BAD645C613C /* SSZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSZipArchive.framework; path = QVCommonKit/FrameWork/SSZipArchive.framework; sourceTree = "<group>"; };
 		2EFE5EE0AEE9EC5E2C6475EFD80FE917 /* AWSEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSEXTRuntimeExtensions.h; path = AWSCore/Mantle/extobjc/AWSEXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		2F231F2C0A564C8BF261C99588B2C6A2 /* YYWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-prefix.pch"; sourceTree = "<group>"; };
 		2F6B7B8E1B03E9317E2DECBA58C774AC /* AWSS3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSS3.modulemap; sourceTree = "<group>"; };
@@ -635,6 +635,7 @@
 		450E4A621E5FFC9B1A79519D62CFAF3C /* AWSURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSURLResponseSerialization.m; path = AWSCore/Serialization/AWSURLResponseSerialization.m; sourceTree = "<group>"; };
 		453CCBEBBBEEE608044BC8848F2F05DE /* NSObject+AWSMTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AWSMTLComparisonAdditions.h"; path = "AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"; sourceTree = "<group>"; };
 		4702520E1017C294E052BD31D0B5FF6F /* OSSGetBucketInfoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetBucketInfoRequest.h; path = AliyunOSSSDK/OSSGetBucketInfoRequest.h; sourceTree = "<group>"; };
+		4722341D82A03EBCB379F8EC4F327FFD /* QVCommonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QVCommonKit.release.xcconfig; sourceTree = "<group>"; };
 		4802ED9EF4FFFAB78AF3A4832880798B /* AWSCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWSCore.release.xcconfig; sourceTree = "<group>"; };
 		482CA20FCCCE8D9D56DE1C9DCCBB08FE /* AWSS3PreSignedURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSS3PreSignedURL.h; path = AWSS3/AWSS3PreSignedURL.h; sourceTree = "<group>"; };
 		48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -664,6 +665,7 @@
 		53FD0F56574BEDAE757852CB3B76E5EA /* OSSTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSTaskCompletionSource.m; path = AliyunOSSSDK/OSSTask/OSSTaskCompletionSource.m; sourceTree = "<group>"; };
 		544100E55D771A84B5D45B9D72C2F631 /* AWSValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSValidation.h; path = AWSCore/Serialization/AWSValidation.h; sourceTree = "<group>"; };
 		549F43385B418A6837FA9402203144A9 /* AWSSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSSerialization.m; path = AWSCore/Serialization/AWSSerialization.m; sourceTree = "<group>"; };
+		5635DFB36713F80637B6891C69AE9249 /* XYCategory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XYCategory.framework; path = QVCommonKit/CoreFrameWork/XYCategory.framework; sourceTree = "<group>"; };
 		5693A7956AEED975FAE936C6110D8DCE /* AWSFMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSFMResultSet.m; path = AWSCore/FMDB/AWSFMResultSet.m; sourceTree = "<group>"; };
 		5723ACDA3682A828769E61AD71C3DAA6 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		57442C75BF022A6DD2778E94C1D6EBDB /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
@@ -675,7 +677,6 @@
 		599F585EAA6BF374968EECB38D5F2B44 /* AWSCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCancellationTokenRegistration.h; path = AWSCore/Bolts/AWSCancellationTokenRegistration.h; sourceTree = "<group>"; };
 		59C4E5DEA4BC1F6624F9048CB8A78FC8 /* QVCloudEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QVCloudEngine-prefix.pch"; sourceTree = "<group>"; };
 		5ADBFE35E343C11877403BB406BF3B63 /* AWSMTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSMTLReflection.m; path = AWSCore/Mantle/AWSMTLReflection.m; sourceTree = "<group>"; };
-		5C050E8EC04041421A845925EE403589 /* QVCommonKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QVCommonKit.debug.xcconfig; sourceTree = "<group>"; };
 		5CE21C0E2864D7484BF8BE9D6EFD4F3F /* OSSRestoreObjectRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSRestoreObjectRequest.m; path = AliyunOSSSDK/OSSRestoreObjectRequest.m; sourceTree = "<group>"; };
 		5CF72F2CE86C586821B2102CB2CAC7BD /* AWSMTLManagedObjectAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSMTLManagedObjectAdapter.h; path = AWSCore/Mantle/AWSMTLManagedObjectAdapter.h; sourceTree = "<group>"; };
 		5DEF30BA45EAB2707A8A536BA513C11E /* NSError+AWSMTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+AWSMTLModelException.h"; path = "AWSCore/Mantle/NSError+AWSMTLModelException.h"; sourceTree = "<group>"; };
@@ -738,6 +739,7 @@
 		805EA39261851D01C006B65228724CD1 /* OSSNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSNetworking.h; path = AliyunOSSSDK/OSSNetworking.h; sourceTree = "<group>"; };
 		8084D3260CE98098B7346DCC53D4ADF8 /* NSMutableData+OSS_CRC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+OSS_CRC.h"; path = "AliyunOSSSDK/NSMutableData+OSS_CRC.h"; sourceTree = "<group>"; };
 		826D281BA34B5FB55CAB0FFFB1EB0CD9 /* OSSURLRequestRetryHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSURLRequestRetryHandler.m; path = AliyunOSSSDK/OSSURLRequestRetryHandler.m; sourceTree = "<group>"; };
+		83EAABC6AB37BD7CFBABA6CA427D26F1 /* XYToolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XYToolKit.framework; path = QVCommonKit/CoreFrameWork/XYToolKit.framework; sourceTree = "<group>"; };
 		84B5A1DBDCFBC2A9CBC8FA8BF3A0EC40 /* OSSNSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSNSLogger.m; path = AliyunOSSSDK/OSSFileLog/OSSNSLogger.m; sourceTree = "<group>"; };
 		84DCE6BC5F2228FBE17D30E4216BE1D7 /* AWSDDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDLog.h; path = AWSCore/Logging/AWSDDLog.h; sourceTree = "<group>"; };
 		85D673BF4F120A97F08863D51B576031 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
@@ -779,7 +781,6 @@
 		98B0725A6991A18A7AABF14EBC10F7B6 /* AWSURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSURLSessionManager.m; path = AWSCore/Networking/AWSURLSessionManager.m; sourceTree = "<group>"; };
 		990CB4C82F0E3D094EA0352FC6D2555A /* OSSURLRequestRetryHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSURLRequestRetryHandler.h; path = AliyunOSSSDK/OSSURLRequestRetryHandler.h; sourceTree = "<group>"; };
 		9A33A162E0F8FFAEADFB0585C73DC12B /* OSSFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSFileLogger.m; path = AliyunOSSSDK/OSSFileLog/OSSFileLogger.m; sourceTree = "<group>"; };
-		9AA9018C31992CFC0EE83AC34BCC63D6 /* QVCommonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QVCommonKit.release.xcconfig; sourceTree = "<group>"; };
 		9AAD1F1B40507147935CE2744E403D7C /* AWSBolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSBolts.h; path = AWSCore/Bolts/AWSBolts.h; sourceTree = "<group>"; };
 		9ACE2141FBB93FD9B2EEDD12C706707F /* AWSS3Service.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSS3Service.m; path = AWSS3/AWSS3Service.m; sourceTree = "<group>"; };
 		9AE3E0E93089D03C764616EE76166F0E /* AWSDDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSDDContextFilterLogFormatter.m; path = AWSCore/Logging/Extensions/AWSDDContextFilterLogFormatter.m; sourceTree = "<group>"; };
@@ -823,7 +824,6 @@
 		B2BB530F8C70715B3E654649D2588DC8 /* AWSDDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDFileLogger.h; path = AWSCore/Logging/AWSDDFileLogger.h; sourceTree = "<group>"; };
 		B3201C71615BBEA8A2C76EF7E43F9FFA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		B4819D54424E9ADEF35ED70098B2FDEF /* AWSSynchronizedMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSSynchronizedMutableDictionary.h; path = AWSCore/Utility/AWSSynchronizedMutableDictionary.h; sourceTree = "<group>"; };
-		B54CD2C62C0B9EE02DFC540D49592754 /* XYToolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XYToolKit.framework; path = QVCommonKit/FrameWork/XYToolKit.framework; sourceTree = "<group>"; };
 		B5836CD7C6535053A34E97AE90F585AD /* AWSExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSExecutor.h; path = AWSCore/Bolts/AWSExecutor.h; sourceTree = "<group>"; };
 		B5D7BC8707D898FB3394F7A6727B3676 /* AWSEXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSEXTScope.m; path = AWSCore/Mantle/extobjc/AWSEXTScope.m; sourceTree = "<group>"; };
 		B5E8EBB3A00763C5D15CD3A95ED52953 /* AWSFMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSFMDatabasePool.h; path = AWSCore/FMDB/AWSFMDatabasePool.h; sourceTree = "<group>"; };
@@ -911,7 +911,6 @@
 		E89B6684741C814595543CBBABE9CCFD /* AWSGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSGZIP.m; path = AWSCore/GZIP/AWSGZIP.m; sourceTree = "<group>"; };
 		E8C8872BD07A6600D32C841F42020B20 /* OSSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSModel.m; path = AliyunOSSSDK/OSSModel.m; sourceTree = "<group>"; };
 		E90D026505AC004864214BB6FE820DD0 /* YYImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYImage-dummy.m"; sourceTree = "<group>"; };
-		E95803AEB3BFFC56E8A1317FEB75D195 /* XYCategory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XYCategory.framework; path = QVCommonKit/FrameWork/XYCategory.framework; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A529CBBA84FD8CFD6B94A115339C29 /* Pods-QVCloudEngine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QVCloudEngine_Example.modulemap"; sourceTree = "<group>"; };
 		EA01ED357AD55242A2516FAEC785962B /* AWSTMDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSTMDiskCache.h; path = AWSCore/TMCache/AWSTMDiskCache.h; sourceTree = "<group>"; };
@@ -1092,16 +1091,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		02058A4784CCFADB07D804C6A21CC597 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2EE86722DD814B3CE7B50BAD645C613C /* SSZipArchive.framework */,
-				E95803AEB3BFFC56E8A1317FEB75D195 /* XYCategory.framework */,
-				B54CD2C62C0B9EE02DFC540D49592754 /* XYToolKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		0C731001C0959C2ACA0D2A178FD77632 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -1110,6 +1099,15 @@
 				3CB3CBD0A5F738916BC8F42C6ED4100B /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		13990AFBCAF7138FF2315F6D6CD30A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5635DFB36713F80637B6891C69AE9249 /* XYCategory.framework */,
+				83EAABC6AB37BD7CFBABA6CA427D26F1 /* XYToolKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		173F7A091681B02B987E71DC8B2BEB2F /* Support Files */ = {
@@ -1233,16 +1231,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		31860758B7A18FBCF26FFC22B6AF3C60 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C050E8EC04041421A845925EE403589 /* QVCommonKit.debug.xcconfig */,
-				9AA9018C31992CFC0EE83AC34BCC63D6 /* QVCommonKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QVCommonKit";
-			sourceTree = "<group>";
-		};
 		396F010BD29027B9775D4D26CF7F036E /* YYCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -1285,6 +1273,24 @@
 			path = "Target Support Files/Pods-QVCloudEngine_Example";
 			sourceTree = "<group>";
 		};
+		3CA9EBEDF09BA7C7AEC72145E04D3AD1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				13990AFBCAF7138FF2315F6D6CD30A0E /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4F1E06C99DFEE7537796491B906B58DF /* QVCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				3CA9EBEDF09BA7C7AEC72145E04D3AD1 /* Core */,
+				9BE16F40C14CCE2FB707A30BB64F6907 /* Support Files */,
+			);
+			name = QVCommonKit;
+			path = QVCommonKit;
+			sourceTree = "<group>";
+		};
 		5FA8DBF23AE960099EA111B796547DB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1311,7 +1317,7 @@
 				C44E520D002868BDEDD63F0027E4F0E8 /* AliyunOSSiOS */,
 				884F798D1BF701E57B9F6EE93CD31DAF /* AWSCore */,
 				2CD44E6D1E93D48B30FDE607D140D49C /* AWSS3 */,
-				94BC02026FAF575A49860BED8D1E2B78 /* QVCommonKit */,
+				4F1E06C99DFEE7537796491B906B58DF /* QVCommonKit */,
 				D0184CD01CF47C276BB95056E320732B /* SVProgressHUD */,
 				396F010BD29027B9775D4D26CF7F036E /* YYCache */,
 				2A196613537B947E70FC19B18788D27E /* YYImage */,
@@ -1540,14 +1546,14 @@
 			path = AWSCore;
 			sourceTree = "<group>";
 		};
-		94BC02026FAF575A49860BED8D1E2B78 /* QVCommonKit */ = {
+		9BE16F40C14CCE2FB707A30BB64F6907 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				02058A4784CCFADB07D804C6A21CC597 /* Frameworks */,
-				31860758B7A18FBCF26FFC22B6AF3C60 /* Support Files */,
+				287D506618CDD664D58892949783D5D8 /* QVCommonKit.debug.xcconfig */,
+				4722341D82A03EBCB379F8EC4F327FFD /* QVCommonKit.release.xcconfig */,
 			);
-			name = QVCommonKit;
-			path = QVCommonKit;
+			name = "Support Files";
+			path = "../Target Support Files/QVCommonKit";
 			sourceTree = "<group>";
 		};
 		ACA33680A23BD74652315DAB474FBDC2 /* Development Pods */ = {
@@ -2773,7 +2779,7 @@
 		};
 		3512CDFA21A5304C8CE97B7B7295B278 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AA9018C31992CFC0EE83AC34BCC63D6 /* QVCommonKit.release.xcconfig */;
+			baseConfigurationReference = 4722341D82A03EBCB379F8EC4F327FFD /* QVCommonKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3108,7 +3114,7 @@
 		};
 		85A330282220094F30BC0EC3D2D4827C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C050E8EC04041421A845925EE403589 /* QVCommonKit.debug.xcconfig */;
+			baseConfigurationReference = 287D506618CDD664D58892949783D5D8 /* QVCommonKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
