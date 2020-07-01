@@ -69,6 +69,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 取消上传
 + (void)cancelUpload;
 
+/// 取消查询
++ (void)cancelQuery;
+
+/// 重新查询
++ (void)restartQuery;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 合成的分辨率
 @property (nonatomic, assign) QVCloudEngineResolution resolution;
 
+/// 查询超时时间， 单位秒，默认是180s
+@property (nonatomic, assign) NSTimeInterval timeoutInterval;
+
 @end
 
 NS_ASSUME_NONNULL_END
