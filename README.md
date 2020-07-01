@@ -144,6 +144,7 @@ compositeConfig.mediaDataList = mediaDataList;
 | templateId | 素材Id（在素材接口里面获取）| number | 必须 | 
 | resolution | 视频分辨率：480p/ 720p/1080p | Resolution | 必须 | 
 | mediaDataList | 本地图片组/视频 | NSArray <QVCompositeMediaData *> *mediaDataList | 必须|
+| timeoutInterval | 查询超时时间， 单位秒，默认是180s| NSTimeInterval | 非必须|
 
 **QVCompositeMediaData：单个源文件参数**
 | 名称  | 解释 | 类型 | 是否必须 | 注意 |
@@ -174,7 +175,19 @@ compositeConfig.mediaDataList = mediaDataList;
 **State：云端合成中间状态**
 | 名称  | 解释 | 类型 | 是否必须 |
 | :-: | :-: | :-: | :-: |
-| state | QVCloudEngineCompositeState_IDEL, //初始状态 <br>QVCloudEngineCompositeState_UPLOAD, //进入文件上传阶段 <br>QVCloudEngineCompositeState_COMPOSITE, //进入合成阶段 <br>QUERY, //进入查询合成情况阶段 <br>TIMEOUT, //合成超时 <br>QVCloudEngineCompositeState_SUCCESS, //合成成功 <br>FAILURE, //合成失败 <br>QVCloudEngineCompositeState_FAILURE,//合成失败但是可以强制制作  <br>STOP//停止 | State | 必须 |
+| state | QVCloudEngineCompositeState_IDEL, //初始状态 <br>QVCloudEngineCompositeState_UPLOAD, //进入文件上传阶段 <br>QVCloudEngineCompositeState_COMPOSITE, //进入合成阶段 <br>QVCloudEngineCompositeState_QUERY,//进入查询合成情况阶段 <br>QVCloudEngineCompositeState_QUERY_FAILURE, //查询失败 <br> <br>QVCloudEngineCompositeState_QUERY_TIMEOUT, //合成查询超时<br>QVCloudEngineCompositeState_UPLOAD_CANCEL, //取消上传 <br>QVCloudEngineCompositeState_SUCCESS, //合成成功 <br>FAILURE, //合成失败 <br>QVCloudEngineCompositeState_FAILURE_FORCEMAKE,//合成失败但是可以强制制作  <br>STOP//停止 | State | 必须 |
+
+### 取消查询
+
+```
+[QVCloudEngine cancelQuery]
+```
+
+###  重新查询
+
+```
+[QVCloudEngine restartQuery]
+```
 
 ### 查询视频列表
 查询历史合成视频列表
